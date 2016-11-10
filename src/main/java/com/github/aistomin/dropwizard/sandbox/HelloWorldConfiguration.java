@@ -6,7 +6,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 
 /**
  * Created by aistomin on 10/11/2016.
- *
+ * <p>
  * The application we'll be building is a high-performance Hello World service,
  * and one of our requirements is that we need to be able to vary how it says
  * hello from environment to environment. We'll need to specify at least two

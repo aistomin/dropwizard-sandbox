@@ -4,7 +4,7 @@ import com.codahale.metrics.health.HealthCheck;
 
 /**
  * Created by aistomin on 10/11/2016.
- *
+ * <p>
  * Health checks give you a way of adding small tests to your application to
  * allow you to verify that your application is functioning correctly in
  * production. We strongly recommend that all of your applications have at least
