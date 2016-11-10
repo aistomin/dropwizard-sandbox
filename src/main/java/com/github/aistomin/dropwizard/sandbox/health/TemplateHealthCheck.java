@@ -11,9 +11,10 @@ import com.codahale.metrics.health.HealthCheck;
  * a minimal set of health checks.
  */
 public final class TemplateHealthCheck extends HealthCheck {
+
     private final String template;
 
-    public TemplateHealthCheck(String template) {
+    public TemplateHealthCheck(final String template) {
         this.template = template;
     }
 

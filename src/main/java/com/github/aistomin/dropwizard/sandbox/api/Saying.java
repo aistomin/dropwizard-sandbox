@@ -16,11 +16,9 @@ public final class Saying {
     @Length(max = 3)
     private String content;
 
-    public Saying() {
-        // Jackson deserialization
-    }
+    public Saying() {}
 
-    public Saying(long id, String content) {
+    public Saying(final long id, final String content) {
         this.id = id;
         this.content = content;
     }

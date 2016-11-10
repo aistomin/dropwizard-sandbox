@@ -13,7 +13,7 @@ import org.hibernate.validator.constraints.NotEmpty;
  * things to begin with: a template for saying hello and a default name to use
  * in case the user doesn't specify their name.
  */
-public final class HelloWorldConfiguration extends Configuration {
+final class HelloWorldConfiguration extends Configuration {
 
     @NotEmpty
     private String template;
@@ -22,7 +22,7 @@ public final class HelloWorldConfiguration extends Configuration {
     private String defaultName = "Stranger";
 
     @JsonProperty
-    public String getTemplate() {
+    String getTemplate() {
         return template;
     }
 
@@ -32,7 +32,7 @@ public final class HelloWorldConfiguration extends Configuration {
     }
 
     @JsonProperty
-    public String getDefaultName() {
+    String getDefaultName() {
         return defaultName;
     }
 
